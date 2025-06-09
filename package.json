@@ -4,8 +4,8 @@
     "tailwindcss": "^4.1.8"
   },
   "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "dev": "tailwindcss -i ./input.css -o ./style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./style.css"
   },
   "devDependencies": {
     "prettier": "3.5.3"
